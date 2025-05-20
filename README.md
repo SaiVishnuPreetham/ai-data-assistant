@@ -19,26 +19,29 @@ AI Data Analysis Assistant is a Streamlit-powered tool that lets you upload CSV,
 ---
 
 ## 📦 Installation
-
+```
 git clone https://github.com/your-username/your-repo.git
-cd your-repo
-pip install -r requirements.txt
 
+cd your-repo
+
+pip install -r requirements.txt
+```
 ---
 
 ## ⚡ Usage
 
 Set your Google API Key
 
-In your terminal:
-
-export GOOGLE_API_KEY=your_api_key_here
-Or add it to a .env file in the repo root.
+- Create a `.env` file in the project root:
+  ```
+  GOOGLE_API_KEY=your_google_api_key_here
+  ```
+- **Do NOT share or commit your `.env` file.**
 
 Run the App:
-
+```
 streamlit run app.py
-
+```
 ---
 
 ## Workflow
