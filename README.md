@@ -1,4 +1,4 @@
-AI Data Analysis Assistant
+#AI Data Analysis Assistant
 🚀 Overview
 AI Data Analysis Assistant is a Streamlit-powered tool that lets you upload CSV, Excel, or JSON data, filter and visualize it, and ask natural language questions for instant, actionable insights using Google Gemini LLM.
 
