@@ -1,24 +1,34 @@
-#AI Data Analysis Assistant
-🚀 Overview
+# AI Data Analysis Assistant
+---
+## 🚀 Overview
+
 AI Data Analysis Assistant is a Streamlit-powered tool that lets you upload CSV, Excel, or JSON data, filter and visualize it, and ask natural language questions for instant, actionable insights using Google Gemini LLM.
 
-🖥️ Features
-Multi-format Upload: CSV, XLS/XLSX, JSON (auto encoding detection)
+## 🖥️ Features
 
-Smart Filtering: Interactive sidebar for numeric columns
+- Multi-format Upload: CSV, XLS/XLSX, JSON (auto encoding detection)
 
-Conversational Analysis: Ask questions, get LLM-powered insights (trends, anomalies, recommendations)
+- Smart Filtering: Interactive sidebar for numeric columns
 
-Visualization: Choose chart type, axes, and color
+- Conversational Analysis: Ask questions, get LLM-powered insights (trends, anomalies, recommendations)
 
-Session History: Review all previous queries and results
+- Visualization: Choose chart type, axes, and color
 
-📦 Installation
+- Session History: Review all previous queries and results
+  
+---
+
+##📦 Installation
+
 bash
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 pip install -r requirements.txt
-⚡ Usage
+
+---
+
+## ⚡ Usage
+
 Set your Google API Key
 
 In your terminal:
@@ -31,14 +41,17 @@ Run the App
 
 bash
 streamlit run app.py
-Workflow
 
-Upload your data file
+---
 
-Filter and preview data
+## Workflow
 
-Ask a question (e.g., “Show top sales trends”)
+- Upload your data file
 
-View AI-generated analysis and charts
+- Filter and preview data
 
-Review analysis history
+- Ask a question (e.g., “Show top sales trends”)
+
+- View AI-generated analysis and charts
+
+- Review analysis history
